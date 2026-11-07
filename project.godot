@@ -1,0 +1,27 @@
+; Lucifero contro Nikita - versione 2D a scorrimento laterale (Godot 4)
+config_version=5
+
+[application]
+config/name="Lucifero contro Nikita 2D"
+run/main_scene="res://Main.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+config/description="Gioco 2D mobile a scorrimento laterale."
+
+[display]
+window/size/viewport_width=960
+window/size/viewport_height=540
+window/size/window_width_override=960
+window/size/window_height_override=540
+window/stretch/mode="canvas_items"
+window/handheld/orientation=6
+window/stretch/aspect="expand"
+
+[input_devices]
+
+pointing/emulate_mouse_from_touch=false
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.48, 0.70, 0.88, 1)
+textures/vram_compression/import_etc2_astc=true
